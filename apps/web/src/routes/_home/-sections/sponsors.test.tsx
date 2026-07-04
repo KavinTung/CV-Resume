@@ -53,10 +53,10 @@ describe("Sponsors", () => {
 
 		expect(queryByText("Sponsors")).not.toBeInTheDocument();
 		expect(getByRole("heading", { name: "Thank you to our sponsors" })).toBeInTheDocument();
-		expect(getByText(/stays free, open-source, and independent/i)).toBeInTheDocument();
-		expect(getByRole("link", { name: "hello@amruthpillai.com" })).toHaveAttribute(
+		expect(getByText(/stays free and independent/i)).toBeInTheDocument();
+		expect(getByRole("link", { name: "v.tung.9x@gmail.com" })).toHaveAttribute(
 			"href",
-			"mailto:hello@amruthpillai.com",
+			"mailto:v.tung.9x@gmail.com",
 		);
 	});
 });
