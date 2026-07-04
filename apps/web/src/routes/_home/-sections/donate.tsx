@@ -161,7 +161,7 @@ export const DonationBanner = () => (
 					transition={{ duration: 0.6, delay: 0.2 }}
 				>
 					<Trans>
-						Reactive Resume is a free and open-source project, built with love and maintained by me and a community of
+						CV Resume - Bachhoavanphong.com is a free project, built with love and maintained by Bachhoavanphong.com and a community of
 						contributors. Your donations help keep the lights on and the code flowing.
 					</Trans>
 				</m.p>
@@ -202,9 +202,9 @@ export const DonationBanner = () => (
 					nativeButton={false}
 					className="h-11 gap-2 px-6"
 					render={
-						<a href="https://opencollective.com/reactive-resume/donate" target="_blank" rel="noopener noreferrer">
+						<a href="https://www.paypal.com/paypalme/kavintung" target="_blank" rel="noopener noreferrer">
 							<HeartIcon aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
-							Open Collective
+							Paypal
 							<span className="sr-only"> ({t`opens in new tab`})</span>
 						</a>
 					}
@@ -215,9 +215,9 @@ export const DonationBanner = () => (
 					nativeButton={false}
 					className="h-11 gap-2 px-6"
 					render={
-						<a href="https://github.com/sponsors/AmruthPillai" target="_blank" rel="noopener noreferrer">
+						<a href="https://kavil.ink" target="_blank" rel="noopener noreferrer">
 							<GithubLogoIcon aria-hidden="true" weight="fill" className="text-zinc-400 dark:text-zinc-600" />
-							GitHub Sponsors
+							Kavi Team
 							<span className="sr-only"> ({t`opens in new tab`})</span>
 						</a>
 					}
