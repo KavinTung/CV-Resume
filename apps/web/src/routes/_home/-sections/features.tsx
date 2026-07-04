@@ -186,7 +186,7 @@ export function Features() {
 				<p className="max-w-2xl text-muted-foreground leading-relaxed">
 					<Trans>
 						Everything you need to create, customize, and share professional resumes. Built with privacy in mind,
-						powered by open source, and completely free forever.
+						powered by https://kavil.ink, and completely free forever.
 					</Trans>
 				</p>
 			</m.div>
