@@ -82,7 +82,7 @@ export function Hero() {
 					transition={{ duration: 0.45, delay: 0.82 }}
 				>
 					<Trans>
-						Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating,
+						CV Resume - Bachhoavanphong.com is a free resume builder that simplifies the process of creating, updating,
 						and sharing your resume.
 					</Trans>
 				</m.p>
