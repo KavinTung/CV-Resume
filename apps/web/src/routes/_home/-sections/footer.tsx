@@ -26,22 +26,22 @@ type SocialLink = {
 
 const getResourceLinks = (): FooterLinkItem[] => [
 	{ url: "https://docs.rxresu.me", label: t`Documentation` },
-	{ url: "https://opencollective.com/reactive-resume/donate", label: t`Sponsorships` },
-	{ url: "https://github.com/amruthpillai/reactive-resume", label: t`Source Code` },
-	{ url: "https://docs.rxresu.me/changelog", label: t`Changelog` },
+	{ url: "https://www.paypal.com/paypalme/kavintung", label: t`Sponsorships` },
+	{ url: "", label: t`Source Code` },
+	{ url: "", label: t`Changelog` },
 ];
 
 const getCommunityLinks = (): FooterLinkItem[] => [
-	{ url: "https://github.com/amruthpillai/reactive-resume/issues", label: t`Report an issue` },
-	{ url: "https://crowdin.com/project/reactive-resume", label: t`Translations` },
-	{ url: "https://reddit.com/r/reactiveresume", label: t`Subreddit` },
-	{ url: "https://discord.gg/aSyA5ZSxpb", label: t`Discord` },
+	{ url: "", label: t`Report an issue` },
+	{ url: "", label: t`Translations` },
+	{ url: "", label: t`Subreddit` },
+	{ url: "", label: t`Discord` },
 ];
 
 const socialLinks: SocialLink[] = [
-	{ url: "https://github.com/amruthpillai/reactive-resume", label: t`GitHub`, icon: GithubLogoIcon },
-	{ url: "https://linkedin.com/in/amruthpillai", label: t`LinkedIn`, icon: LinkedinLogoIcon },
-	{ url: "https://x.com/KingOKings", label: t`X (Twitter)`, icon: XLogoIcon },
+	{ url: "https://github.com/KavinTung/", label: t`GitHub`, icon: GithubLogoIcon },
+	{ url: "https://www.linkedin.com/in/v-tung/", label: t`LinkedIn`, icon: LinkedinLogoIcon },
+	{ url: "", label: t`X (Twitter)`, icon: XLogoIcon },
 ];
 
 export function Footer() {
@@ -63,7 +63,7 @@ export function Footer() {
 						<h2 className="font-semibold text-lg tracking-tight">Reactive Resume</h2>
 						<p className="max-w-xs text-muted-foreground text-sm leading-relaxed">
 							<Trans>
-								A free and open-source resume builder that simplifies the process of creating, updating, and sharing
+								A free CV Resume builder that simplifies the process of creating, updating, and sharing
 								your resume.
 							</Trans>
 						</p>
